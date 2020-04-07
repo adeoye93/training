@@ -1,0 +1,168 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Technovone - FREE INTERNET MARKETTING TRAINING</title>
+    <link rel="shortcut icon" type="image/png" href="technovone.png">
+
+    <!-- Font Awesome Icons -->
+    <link href="resources/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
+          rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="resources/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS - Includes Bootstrap -->
+    <link href="resources/css/creative.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+<!-- About Section -->
+<div style="text-align:center;">
+<a href="https://www.technovone.com/">
+	<img src="technovone.png" alt="technovone" style="width:300px;height:46px;">
+</a>
+</div>
+    <section class="page-section" style="background-color: #153039; padding-top: auto; padding-bottom: auto;" id="about">
+    <div class="container">
+    	<div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">WELCOME TO TECHNOVONE FREE TRAINING</h2>
+                <hr class="divider light my-4">
+                <p class="text-white-50 mb-4">
+                    The aim of this training is to empower everyone to have knowledge about Internet marketting.<br><br>
+                    To benefit from this our online free training, you need to share this free training link to 10 people on
+                    WhatsApp or 10 groups on WhatsApp so that they can benefit from this training too.
+                    Click on the share button below to share to your friends or groups, then come back and click on the
+                    <b>JOIN FREE TRAINING</b> button<br><br>
+                    <b>Note:</b> You need to share to 10 groups or friends before you can benefit from this free
+                    training class
+                </p>
+                <br>
+
+                <a class="whatsapp btn btn-light btn-xl js-scroll-trigger" id="whatsapp"
+                   href="whatsapp://send?text=
+                   *FREE INTERNET MARKETTING TRAINING*
+%20%0A%20%0A
+*Technovone in conjunction with Micakin Group is organising a FREE Online training for a week only:*
+%20%0A %20%0A
+*On the Following Courses:*
+%20%0A
+ 1.Blogging
+ %20%0A
+ 2.Blogging Monetization
+%20%0A
+ 3.Affiliate Marketiing
+%20%0A
+ 4.Freelancing
+%20%0A
+ 5.And other ways to make money online legitimately.
+%20%0A
+The lectures are 100 percent fullproof. The aim of this training is to empower
+everyone to have knowledge about the best way to make money online in the right way. Hurry Get it Now*
+Limited space available
+ Join our free training
+group from the link below
+%20%0A%20%0A
+https://www.technovone.com/training"
+                   data-action="share/whatsapp/share"><i class="fab fa-whatsapp"></i> SHARE NOW</a><br><br>
+
+                <div class="progress" style="height: 50px;">
+                    <div class="progress-bar" id="progress-bar" style="width:0%; color: #000"></div>
+                </div>
+                <br>
+
+                <div class="msg" id="msg">Re-click the "Share Button" to share to the remaining group/friends in order
+                    to have access to our free online training
+                </div>
+                <br>
+
+                <a class="final btn btn-danger btn-xl js-scroll-trigger" id="final"
+                   href="https://chat.whatsapp.com/JIcqjBqop0SCelACPONGH5">Join Free Training</a>
+
+            </div>
+        </div>
+    </div>
+    <div style="text-align:center; padding:10px;">
+    	<a href="https://namecheap.pxf.io/c/2222985/459742/5618" id="459742"><img src="//a.impactradius-go.com/display-ad/5618-459742" border="0" alt="Create your Web Presence with Namecheap" width="728" height="90"/></a><img height="0" width="0" src="//namecheap.pxf.io/i/2222985/459742/5618" style="position:absolute;visibility:hidden;" border="0" />
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-light py-5">
+    <div class="container">
+        <div class="small text-center text-muted">Copyright &copy 2020 | <a href="https://www.technovone.com/">Technovone.com</a></div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="resources/vendor/jquery/jquery.min.js"></script>
+<script src="resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="resources/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="resources/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Custom scripts for this template -->
+
+<script>
+    var cl1 = 0;
+    var max_val = 2;
+    $('document').ready(function () {
+        $('#final').hide();
+        $('#msg').hide();
+        $('#whatsapp').click(function () {
+            cl1++;
+            var widh = cl1 * 50;
+            var elem = document.getElementById("progress-bar");
+            elem.style.width = widh + `%`;
+            if (cl1 > max_val - 1) {
+                document.getElementById('msg').innerHTML = "";
+                var ck = document.getElementById("final");
+                // ck.click();
+                if (cl1 == 2) {
+                    // $('#final').show();
+                    $('#final').delay(5000).show(0);
+                }
+
+            } else {
+                // $('#final').show();
+                $('#msg').delay(5000).show(0);
+                // document.getElementById('msg').innerHTML = "Re-click the \"Share Button\" to share to the remaining group/friends in order to have access to our free online training";
+            }
+            // document.getElementById('msg').innerHTML = "Almost one step away, and then you can join the Whatsapp group";
+        });
+        $('#final').click(function (e) {
+        });
+    });
+
+</script>
+<script type="">// changing progressbar when button is clicked
+    $(".whatsapp").click(function () {
+        animateProgress(parseInt($(this).data('diff')));
+    });
+
+    function animateProgress(diff) {
+        var currValue = $("#progress").val();
+        var toValue = currValue + diff;
+
+        toValue = toValue < 0 ? 0 : toValue;
+        toValue = toValue > 100 ? 100 : toValue;
+
+        $("#progress").animate({'value': toValue}, 500);
+    }
+</script>
+</body>
+</html>
